@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body   {
+    font-family: 'Fjalla One', sans-serif;
+    background-color: linear-gradient(to right, rgb#a1a98a, #ffffff)
+}     
+
+    .container{
+        width: 100vw;
+        height: 100vw;
+        background-color:  rgb(190, 190, 77);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        
+-       moz-box-shadow: 26px 28px 89px -11px rgba(130,133,88,0.2);
+        box-shadow: 26px 28px 89px -11px rgba(130,133,88,0.2);
+        webkit-box-shadow: 26px 28px 89px -11px rgba(130,133,88,0.2);
+
+    }
+    
+    .card{
+        background-color: rgb(185, 166, 140);
+        border-style: solid;
+        border-color: rgb(77, 44, 13);
+        border-width: 4px; 
+        border-radius: 12px;
+        border-height: 12px;
+        min-width: 30%;
+        min-height:20%;
+        display: flex; 
+        flex-direction: column;
+        color:rgb(53, 30, 9);
+        text-transform: uppercase;
+
+    }
+
+    .submit{
+        background-color: rgb(77, 44, 13);
+        color: rgb(190, 190, 77);
+        border: 15px;
+        border-radius: 80%;
+        display: block;
+        margin: auto
+        align-item:center
+        padding: 5px;
+        width: 90%;
+        font-family: 'Fjalla One', sans-serif;
+       
+
+    }
+
+
+
+    input{
+        margin: 7px;
+
+    }
