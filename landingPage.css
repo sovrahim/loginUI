@@ -1,0 +1,63 @@
+
+
+#showcase{
+    background-image: url(LandingPics/couch.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+.navbar{
+    background-color: rgb(236, 238, 240);
+    width: 100vw;
+    color:white;
+    opacity:20%;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items:flex-start;
+    align-content:stretch;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight:bold;
+    background-color: beige;
+    opacity:10%;
+    color: black;
+    margin:0;
+    line-height: 4;
+    
+}
+
+.card1 .card2 .card3 {
+    border: 3px grey solid;
+    display:flex;
+    align-content: stretch;
+
+}
+
+.card1{
+    border: 3px black solid;
+    padding: 20px;
+
+}
+
+.card2{
+    border:  3px black solid;
+    padding: 20px;
+
+}
+    
+.card3{
+    border:  3px black solid;
+    padding: 20px;
+  
+}
